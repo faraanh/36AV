@@ -24,19 +24,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="frmAddSign.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="frmVirusList.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="MyForm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Restore.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Delete.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DevForm.cpp">
@@ -53,28 +41,10 @@
     <ClInclude Include="Form1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="frmAddSign.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="frmVirusList.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="hSign.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Register.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="frmRestore.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="frmDelete.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="frmFind.h">

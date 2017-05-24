@@ -128,44 +128,24 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
-    <ClCompile Include="Delete.cpp" />
     <ClCompile Include="DevForm.cpp" />
     <ClCompile Include="DevForm1.cpp" />
     <ClCompile Include="frmFind.cpp" />
     <ClCompile Include="MyForm.cpp" />
-    <ClCompile Include="Restore.cpp" />
     <ClCompile Include="SimpleAV.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="frmAddSign.cpp" />
-    <ClCompile Include="frmVirusList.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="frmDelete.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
     <ClInclude Include="Form1.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="frmAddSign.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="frmFind.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="frmVirusList.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="hSign.h" />
-    <ClInclude Include="Register.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
     <ClInclude Include="resource.h" />
-    <ClInclude Include="frmRestore.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
@@ -173,25 +153,8 @@
       <DependentUpon>Form1.h</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAddSign.resx">
-      <DependentUpon>frmAddSign.h</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmDelete.resx">
-      <DependentUpon>frmDelete.h</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmFind.resx">
       <DependentUpon>frmFind.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmVirusList.resx">
-      <DependentUpon>frmVirusList.h</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Register.resx">
-      <DependentUpon>Register.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRestore.resx">
-      <DependentUpon>frmRestore.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen1.resx">
       <SubType>Code</SubType>
